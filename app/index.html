@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>
+<body>
+  <div id="container">
+    <div id="page">
+        <div id="login" class="animate__animated animate__flipInY">
+          <h1 align="center">Login</h1><form id="login_frm" autocomplete="off">
+          <input type="email" placeholder="Email Id" id="login_email">
+          <input type="password" placeholder="Password" id="login_password">
+          <button type="submit" id="login_btn">Login</button></form>
+          <p>Don't have an account? <span id="signup_link">Sign up</span></p>
+        </div>
+
+        <div id="signup" class="animate__animated animate__flipInY"> <h1 align="center">Sign up</h1><form id="signup_frm" autocomplete="off">
+            <input type="name" placeholder="Name" id="username">
+            <input type="email" placeholder="Email Id" id="email">
+            <input type="number" placeholder="Phone" id="phone">
+            <input type="password" placeholder="Password" id="password">
+            <button type="submit" id="login_btn">Sign up</button></form>
+            <p>Already have an account? <span id="login_link">Login</span></p>
+        </div>
+        </div>
+    </div>
+  </div>
+  <!----start external javascript page----->
+  <script src="js/index.js"></script>
+  <!----start external javascript page----->
+</body>
+</html>
